@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 90vw;
+    margin-top: 10px;
+    background-color: goldenrod;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#imagens{
+    background-image: url('../img/forca.png');
+    width: 234px;
+    height: 277px;
+    background-repeat: no-repeat;
+}
+
+#palavra-chave{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 1em;
+}
