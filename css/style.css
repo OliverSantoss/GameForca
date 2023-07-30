@@ -33,3 +33,33 @@ body{
     margin-top: 30px;
     font-size: 1em;
 }
+
+.letras{
+    width: 16px;
+    padding-left: 1px;
+    margin-left: 10px;
+    border-bottom: 2px solid rgb(170, 39, 61);
+}
+
+#teclado{
+    padding: 30px 0;
+}
+
+.teclas{
+    display: flex;
+    justify-content: center;
+}
+
+.teclas button{
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    color:#fff;
+    box-shadow: 0 2px 8px dimgray;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
+.teclas button:hover{
+    transform: scale(1.1);
+}
